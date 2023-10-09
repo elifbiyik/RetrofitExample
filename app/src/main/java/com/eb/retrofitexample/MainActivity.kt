@@ -48,8 +48,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-
-
         // Call<User> dönüş tipi
         val call = apiService.getAllUserCall()
         call.enqueue(object : Callback<User> {
@@ -108,6 +106,5 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
-
     }
 }
